@@ -1,0 +1,18 @@
+{
+  "north_star_metric": {
+    "name": "Daily Active Learners completing at least one speaking exercise",
+    "definition": "This metric measures the number of unique users who actively engage with the core value proposition of SpeakX on a given day by successfully finishing at least one guided speaking practice session with the AI teacher, Sia. It signifies that users are not just logging in, but are actively taking concrete steps towards improving their English speaking confidence and fluency.",
+    "strategic_reasoning": "This metric is chosen over simpler metrics like Daily Active Users (DAU) or direct revenue because it directly captures the moment of value realization for the user – the act of *speaking practice*. It aligns perfectly with SpeakX's mission to transform users into confident English speakers, as consistent practice is the direct path to achieving this goal. By focusing on this specific action, SpeakX ensures that its growth is tied to genuine user progress and the core problem it solves, rather than superficial engagement.",
+    "leading_vs_lagging": {
+      "classification": "leading",
+      "explanation": "This metric is a leading indicator because daily completion of speaking exercises directly predicts future user success and retention. Consistent daily practice builds momentum, skill, and confidence, which are prerequisites for long-term engagement and subscription renewals. It signals that users are making tangible progress towards their learning goals, which will ultimately reduce churn and increase lifetime value."
+    },
+    "measurable_proxy": {
+      "variable": "daily_speaking_exercise_completers",
+      "logic": "COUNT(DISTINCT user_id) WHERE activity_date = CURRENT_DATE AND speaking_exercise_status = 'completed' AND speaking_exercise_count >= 1",
+      "threshold": "at least one completed exercise (speaking_exercise_count >= 1)",
+      "window": "daily"
+    },
+    "business_impact": "Improving this North Star Metric directly translates to enhanced business outcomes by fostering stronger user habits and accelerating learning progress. Higher rates of daily speaking exercise completion will lead to increased user confidence and perceived value, thereby driving higher trial-to-paid conversion rates, improving weekly and monthly retention across all persona segments, and ultimately boosting the app's overall revenue and sustainable growth."
+  }
+}

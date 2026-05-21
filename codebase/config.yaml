@@ -1,0 +1,72 @@
+# ─────────────────────────────────────────────────────────────────────────────
+#  Project Aurora – Pipeline Configuration
+#
+#  Edit this file to change inputs, outputs, or settings.
+#  Then run the full pipeline with a single command:
+#
+#      python codebase/pipeline.py
+#
+#  To run the self-learning engine (Task 3):
+#
+#      python codebase/learning_engine.py
+#
+#  To run only specific stages:
+#      python codebase/pipeline.py --stages ingest,segment
+#
+#  To skip specific stages:
+#      python codebase/pipeline.py --skip kb,goals
+# ─────────────────────────────────────────────────────────────────────────────
+
+paths:
+  # ── Inputs ──────────────────────────────────────────────────────────────────
+  raw_input:        codebase/input/user_behavioral_data.csv     # raw user behavioral CSV
+  knowledge_bank:   codebase/input/knowledge_bank.md    # KB markdown file
+
+  # ── Intermediate outputs (pipeline_cache — not deliverables) ────────────────
+  user_profiles:    codebase/pipeline_cache/user_profiles.csv
+  segment_summary:  codebase/pipeline_cache/segment_summary.csv
+  segment_plots:    codebase/pipeline_cache/segmentation_plots.png
+
+  # ── Task 1 Deliverables (iteration_0_before_learning) ───────────────────────
+  deliverables_dir: iteration_0_before_learning/
+  north_star:       iteration_0_before_learning/company_north_star.json
+  tone_matrix:      iteration_0_before_learning/allowed_tone_hook_matrix.json
+  feature_map:      iteration_0_before_learning/feature_goal_map.json
+  user_segments:    iteration_0_before_learning/user_segments.csv
+  segment_goals:    iteration_0_before_learning/segment_goals.csv
+
+  # ── Task 2 Deliverables (iteration_0_before_learning) ───────────────────────
+  communication_themes:         iteration_0_before_learning/communication_themes.csv
+  message_templates:            iteration_0_before_learning/message_templates.csv
+  timing_recommendations:       iteration_0_before_learning/timing_recommendations.csv
+  user_notification_schedule:   iteration_0_before_learning/user_notification_schedule.csv
+
+  # ── Task 3 Inputs & Deliverables (iteration_1_after_learning) ───────────────
+  experiment_results:           experiment_results.csv
+  iteration_1_dir:              iteration_1_after_learning/
+  message_templates_v2:         iteration_1_after_learning/message_templates_v2.csv
+  timing_recommendations_v2:    iteration_1_after_learning/timing_recommendations_v2.csv
+  ucb_scores:                   codebase/pipeline_cache/ucb_scores.csv
+  user_notification_schedule_v2: iteration_1_after_learning/user_notification_schedule_v2.csv
+  learning_delta_report:        learning_delta_report.csv
+  user_segments_v2:             iteration_1_after_learning/user_segments.csv
+
+# ── Segmentation Settings ─────────────────────────────────────────────────────
+segmentation:
+  k: 8              # number of clusters — must be between 6 and 12
+
+# ── Stage Toggles ─────────────────────────────────────────────────────────────
+#  Set a stage to false to skip it (useful when outputs already exist and
+#  you only want to re-run one stage, e.g. goals after editing the KB).
+#
+#  Note: --stages / --skip CLI flags override these toggles at runtime.
+stages:
+  ingest:  true     # user_data_ingestion.py  →  pipeline_cache/user_profiles.csv
+  kb:      true     # kb_ingestion.py         →  iteration_0_before_learning/ (3 JSONs)
+  segment: true     # segmentation.py         →  iteration_0_before_learning/user_segments.csv
+  goals:   true     # goal_builder.py         →  iteration_0_before_learning/segment_goals.csv
+  theme:   true     # theme_engine.py         →  iteration_0_before_learning/communication_themes.csv
+  template: true    # template_generator.py   →  iteration_0_before_learning/message_templates.csv
+  timing:  true     # timing_optimizer.py     →  iteration_0_before_learning/timing_recommendations.csv
+  schedule: true    # schedule_generator.py   →  iteration_0_before_learning/user_notification_schedule.csv
+  learn:   false    # learning_engine.py      →  iteration_1_after_learning/ (4 outputs + schedule_v2)

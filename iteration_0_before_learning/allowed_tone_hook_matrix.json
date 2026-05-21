@@ -1,0 +1,219 @@
+{
+  "allowed_tones": [
+    {
+      "tone": "Encouraging",
+      "psychological_effect": "This tone fosters a sense of capability and motivation, making users feel supported in their learning journey. It reduces anxiety by emphasizing effort and potential, rather than focusing on current deficiencies, thereby promoting a growth mindset.",
+      "use_case": "Daily reminders, initial feedback, onboarding messages, and general motivational prompts.",
+      "example": "Keep up the great work! Every lesson brings you closer to fluency. (Hindi: शानदार काम जारी रखें! हर पाठ आपको प्रवाह के करीब लाता है।)"
+    },
+    {
+      "tone": "Supportive",
+      "psychological_effect": "A supportive tone builds trust and psychological safety, assuring users that the platform is a helpful partner, not a judge. It creates an environment where users feel comfortable taking risks and making mistakes, which is crucial for language acquisition.",
+      "use_case": "When users face challenges, after a missed practice day (without shaming), or when introducing new features.",
+      "example": "It's okay to take a break! Whenever you're ready, Sia is here to help you practice. (Hindi: ब्रेक लेना ठीक है! जब भी आप तैयार हों, सिया आपकी अभ्यास में मदद करने के लिए यहाँ है।)"
+    },
+    {
+      "tone": "Celebratory",
+      "psychological_effect": "Celebrating small wins triggers the brain's reward system, releasing dopamine and creating positive associations with the learning process. This reinforcement strengthens desired behaviors, making users feel proud of their achievements and more likely to continue engaging.",
+      "use_case": "Upon completing lessons, earning badges, reaching milestones, or achieving streaks.",
+      "example": "Fantastic! You've just completed your 10th Daily Lesson. Keep shining! (Hindi: शानदार! आपने अभी-अभी अपना 10वां दैनिक पाठ पूरा किया है। चमकते रहें!)"
+    },
+    {
+      "tone": "Motivational",
+      "psychological_effect": "Motivational language inspires users to set and pursue higher goals, tapping into their intrinsic desire for self-improvement and mastery. It helps users connect their daily actions to their larger aspirations, sustaining long-term engagement and effort.",
+      "use_case": "Before challenging exercises, when introducing new learning paths, or in weekly progress reports.",
+      "example": "Unlock your full potential! Your next fluency breakthrough is just a practice session away. (Hindi: अपनी पूरी क्षमता को अनलॉक करें! आपकी अगली प्रवाह सफलता बस एक अभ्यास सत्र दूर है।)"
+    },
+    {
+      "tone": "Friendly",
+      "psychological_effect": "A friendly tone makes the interaction feel more personal and less transactional, fostering a sense of connection and approachability. It reduces cognitive load by making communication feel natural and inviting, enhancing user comfort and engagement.",
+      "use_case": "General notifications, conversational AI interactions, and welcoming messages.",
+      "example": "Hey there! Ready for some fun practice today? Your daily lesson is waiting. (Hindi: नमस्ते! आज कुछ मजेदार अभ्यास के लिए तैयार हैं? आपका दैनिक पाठ इंतजार कर रहा है।)"
+    },
+    {
+      "tone": "Professional",
+      "psychological_effect": "This tone conveys credibility and expertise, assuring users that the platform is a reliable and effective tool for serious learning. It establishes a sense of respect and seriousness around the educational content, particularly for features related to career development.",
+      "use_case": "Role-based practice scenarios (e.g., job interviews), progress reports, and feature explanations.",
+      "example": "Your weekly progress report is ready. Review your advancements in fluency and pronunciation. (Hindi: आपकी साप्ताहिक प्रगति रिपोर्ट तैयार है। प्रवाह और उच्चारण में अपनी प्रगति की समीक्षा करें।)"
+    },
+    {
+      "tone": "Empathetic",
+      "psychological_effect": "An empathetic tone acknowledges the user's feelings and challenges, creating a sense of understanding and validation. It helps in building rapport and trust, making users feel heard and supported, especially when they might be struggling or feeling overwhelmed.",
+      "use_case": "When users haven't practiced for a while, during onboarding to address potential difficulties, or in feedback loops.",
+      "example": "Learning a new language can be challenging, and we're here to support you every step of the way. (Hindi: एक नई भाषा सीखना चुनौतीपूर्ण हो सकता है, और हम हर कदम पर आपका समर्थन करने के लिए यहाँ हैं।)"
+    }
+  ],
+  "disallowed_tones": [
+    {
+      "tone": "Shaming",
+      "risk": "Shaming users for inactivity or mistakes can lead to negative emotional responses such as guilt, embarrassment, and resentment. This undermines self-esteem, creates a hostile learning environment, and significantly increases the likelihood of user churn by associating the product with negative feelings.",
+      "alternative": "Supportive, Encouraging"
+    },
+    {
+      "tone": "Guilt-tripping",
+      "risk": "Guilt-tripping attempts to manipulate users into action by making them feel bad about not engaging. While it might trigger short-term re-engagement, it erodes trust and fosters a transactional, rather than a supportive, relationship, ultimately leading to long-term disengagement and negative brand perception.",
+      "alternative": "Motivational, Empathetic"
+    },
+    {
+      "tone": "Aggressive urgency",
+      "risk": "Aggressive urgency creates undue pressure and anxiety, making users feel rushed and stressed rather than empowered. This can lead to burnout, reduce the enjoyment of learning, and make the user perceive the platform as demanding rather than helpful, violating the principle of respecting user time.",
+      "alternative": "Motivational, Friendly"
+    },
+    {
+      "tone": "Manipulative",
+      "risk": "Manipulative tones involve deceptive or coercive tactics to influence user behavior, which fundamentally breaches ethical communication guidelines. It destroys user trust, damages brand reputation, and can lead to a perception of the product as exploitative, making users feel controlled rather than empowered.",
+      "alternative": "Empathetic, Professional"
+    },
+    {
+      "tone": "Condescending",
+      "risk": "A condescending tone implies superiority and can make users feel belittled or unintelligent, which is highly detrimental to their learning confidence. This alienates users, discourages engagement, and directly contradicts the goal of fostering a supportive and encouraging learning environment.",
+      "alternative": "Supportive, Professional"
+    }
+  ],
+  "hook_taxonomy": [
+    {
+      "feature": "Daily Lessons",
+      "primary_octalysis_drive": 2,
+      "secondary_octalysis_drive": 3,
+      "drive_names": {
+        "primary": "Development & Accomplishment",
+        "secondary": "Empowerment of Creativity & Feedback"
+      },
+      "behavioral_mechanism": "Users are motivated by the clear path to skill development and the sense of achievement from completing structured tasks. The AI feedback provides immediate validation and guidance, reinforcing the learning loop and making progress tangible, which encourages consistent daily engagement.",
+      "example_hook_copy": "Your daily dose of fluency awaits! Complete today's 15-min lesson to sharpen your speaking skills. (Hindi: आपकी दैनिक प्रवाह की खुराक इंतज़ार कर रही है! अपनी बोलने की क्षमता को निखारने के लिए आज का 15 मिनट का पाठ पूरा करें।)",
+      "ethical_alignment": "This hook is ethical as it focuses on progress and skill development, providing clear value to the user. It respects user time by highlighting the short duration and uses encouraging language, aligning with the principles of celebrating small wins and providing value."
+    },
+    {
+      "feature": "AI Tutor (Sia)",
+      "primary_octalysis_drive": 3,
+      "secondary_octalysis_drive": 2,
+      "drive_names": {
+        "primary": "Empowerment of Creativity & Feedback",
+        "secondary": "Development & Accomplishment"
+      },
+      "behavioral_mechanism": "The real-time, personalized feedback from Sia empowers users to experiment with language in a safe environment, fostering a sense of control over their learning. This immediate correction loop accelerates skill acquisition and builds confidence, driving continuous conversational practice.",
+      "example_hook_copy": "Ready to chat? Sia is here 24/7 to help you speak confidently with real-time corrections. (Hindi: बात करने के लिए तैयार हैं? सिया यहाँ 24/7 आपकी आत्मविश्वास से बोलने में मदद करने के लिए है, वास्तविक समय में सुधार के साथ।)",
+      "ethical_alignment": "This hook is ethical because it offers a valuable, always-available resource that empowers users to practice without pressure. It aligns with providing value in every notification and focusing on progress through direct, supportive feedback."
+    },
+    {
+      "feature": "Role-Based Practice",
+      "primary_octalysis_drive": 1,
+      "secondary_octalysis_drive": 3,
+      "drive_names": {
+        "primary": "Epic Meaning & Calling",
+        "secondary": "Empowerment of Creativity & Feedback"
+      },
+      "behavioral_mechanism": "Users are driven by the desire to achieve real-world goals, such as excelling in a job interview or presentation, which gives their learning a greater purpose. Practicing these specific scenarios empowers them with the confidence and skills needed to succeed in high-stakes situations, directly linking effort to tangible life improvements.",
+      "example_hook_copy": "Ace that interview! Practice real-world scenarios like job interviews or presentations with our Role-Based Practice. (Hindi: उस इंटरव्यू में सफल हों! हमारी भूमिका-आधारित अभ्यास के साथ नौकरी के इंटरव्यू या प्रस्तुतियों जैसे वास्तविक दुनिया के परिदृश्यों का अभ्यास करें।)",
+      "ethical_alignment": "This hook is ethical as it connects learning to meaningful user goals and provides practical value. It is motivational and empowering, respecting user aspirations and aligning with the principle of focusing on progress towards real-world application."
+    },
+    {
+      "feature": "Progress Reports",
+      "primary_octalysis_drive": 2,
+      "secondary_octalysis_drive": 3,
+      "drive_names": {
+        "primary": "Development & Accomplishment",
+        "secondary": "Empowerment of Creativity & Feedback"
+      },
+      "behavioral_mechanism": "Quantifiable progress reports provide clear evidence of accomplishment, validating the user's effort and reinforcing their commitment. Seeing tangible improvements in fluency, pronunciation, and vocabulary empowers users with data-driven insights, motivating them to continue their learning journey and refine their strategies.",
+      "example_hook_copy": "Great news! Your weekly progress report is ready. See how much your fluency and pronunciation have improved! (Hindi: अच्छी खबर! आपकी साप्ताहिक प्रगति रिपोर्ट तैयार है। देखें कि आपकी प्रवाह और उच्चारण में कितना सुधार हुआ है!)",
+      "ethical_alignment": "This hook is ethical because it celebrates small wins authentically and focuses on progress, not perfection. It provides clear value by showing measurable improvement, aligning with the principle of positive reinforcement and respecting user effort."
+    },
+    {
+      "feature": "Coins",
+      "primary_octalysis_drive": 4,
+      "secondary_octalysis_drive": 2,
+      "drive_names": {
+        "primary": "Ownership & Possession",
+        "secondary": "Development & Accomplishment"
+      },
+      "behavioral_mechanism": "Earning coins for completing exercises creates a sense of virtual ownership and tangible reward, providing immediate gratification for effort. This accumulation of a valuable resource, which can be exchanged for bonus content, reinforces the accomplishment of learning tasks and drives continued engagement through a clear incentive system.",
+      "example_hook_copy": "You earned 10 coins for completing your lesson! Keep going to unlock exclusive bonus content. (Hindi: आपने अपना पाठ पूरा करने के लिए 10 सिक्के कमाए! विशेष बोनस सामग्री अनलॉक करने के लिए जारी रखें।)",
+      "ethical_alignment": "This hook is ethical as it celebrates achievements and provides a clear, non-coercive incentive for engagement. It aligns with celebrating small wins and providing value through unlockable content, without resorting to manipulative tactics."
+    },
+    {
+      "feature": "Streaks",
+      "primary_octalysis_drive": 8,
+      "secondary_octalysis_drive": 2,
+      "drive_names": {
+        "primary": "Loss & Avoidance",
+        "secondary": "Development & Accomplishment"
+      },
+      "behavioral_mechanism": "The fear of losing an accumulated streak motivates users to maintain consistent daily practice, leveraging the psychological principle of loss aversion. The streak protection feature mitigates the negative impact of a missed day, encouraging re-engagement and reinforcing the habit of regular learning without inducing excessive stress.",
+      "example_hook_copy": "You're on a 7-day streak! Keep it up to reach your next milestone. Don't forget to practice today! (Hindi: आप 7-दिन की स्ट्रीक पर हैं! अपनी अगली उपलब्धि तक पहुँचने के लिए इसे जारी रखें। आज अभ्यास करना न भूलें!)",
+      "ethical_alignment": "This hook is ethical because it encourages consistency and celebrates the user's commitment, rather than shaming them for inactivity. It provides positive motivation and a mechanism to mitigate loss, aligning with never shaming users and focusing on progress."
+    },
+    {
+      "feature": "Leaderboards",
+      "primary_octalysis_drive": 5,
+      "secondary_octalysis_drive": 2,
+      "drive_names": {
+        "primary": "Social Influence & Relatedness",
+        "secondary": "Development & Accomplishment"
+      },
+      "behavioral_mechanism": "Leaderboards tap into the innate human desire for social comparison and recognition, motivating users through healthy competition. The visibility of their ranking against peers drives users to practice more diligently to improve their standing, fostering a sense of community and shared ambition.",
+      "example_hook_copy": "The weekly leaderboard is live! See where you rank among other learners and challenge yourself to climb higher. (Hindi: साप्ताहिक लीडरबोर्ड लाइव है! देखें कि आप अन्य शिक्षार्थियों के बीच कहाँ रैंक करते हैं और खुद को ऊपर चढ़ने के लिए चुनौती दें।)",
+      "ethical_alignment": "This hook is ethical as it uses friendly competition as a motivator, promoting engagement without shaming. It aligns with encouraging and motivational tones, focusing on achievement and providing a social context for learning."
+    },
+    {
+      "feature": "Badges & Achievements",
+      "primary_octalysis_drive": 2,
+      "secondary_octalysis_drive": 4,
+      "drive_names": {
+        "primary": "Development & Accomplishment",
+        "secondary": "Ownership & Possession"
+      },
+      "behavioral_mechanism": "Badges and achievements provide clear, visible markers of progress and mastery, satisfying the drive for accomplishment and recognition. Collecting these virtual rewards creates a sense of ownership over one's learning journey, motivating users to pursue further milestones and deepen their engagement.",
+      "example_hook_copy": "Congratulations! You've earned the 'Fluent Speaker' badge for completing 50 lessons. Keep up the amazing work! (Hindi: बधाई हो! आपने 50 पाठ पूरे करने के लिए 'फ्लुएंट स्पीकर' बैज अर्जित किया है। अद्भुत काम जारी रखें!)",
+      "ethical_alignment": "This hook is ethical because it celebrates small wins authentically and focuses on progress. It provides positive reinforcement and recognition for effort, aligning with encouraging and celebratory tones without being manipulative."
+    },
+    {
+      "feature": "Sia Chat",
+      "primary_octalysis_drive": 3,
+      "secondary_octalysis_drive": 5,
+      "drive_names": {
+        "primary": "Empowerment of Creativity & Feedback",
+        "secondary": "Social Influence & Relatedness"
+      },
+      "behavioral_mechanism": "Sia Chat empowers users with a safe, judgment-free space for conversational practice, allowing them to experiment and receive immediate feedback. The simulated companionship reduces anxiety and fosters a sense of comfort, encouraging more frequent and uninhibited language use.",
+      "example_hook_copy": "Feeling chatty? Sia is ready for a conversation anytime, day or night. Practice without pressure! (Hindi: बात करने का मन है? सिया दिन या रात कभी भी बातचीत के लिए तैयार है। बिना दबाव के अभ्यास करें!)",
+      "ethical_alignment": "This hook is ethical as it provides a valuable, supportive, and friendly resource that respects user time and attention. It focuses on empowering users to practice at their convenience without pressure, aligning with providing value and never shaming."
+    },
+    {
+      "feature": "Pronunciation Coach",
+      "primary_octalysis_drive": 3,
+      "secondary_octalysis_drive": 2,
+      "drive_names": {
+        "primary": "Empowerment of Creativity & Feedback",
+        "secondary": "Development & Accomplishment"
+      },
+      "behavioral_mechanism": "The Pronunciation Coach empowers users with real-time, actionable feedback, allowing them to immediately refine their accent and clarity. This direct feedback loop accelerates skill development and provides a clear sense of accomplishment as users hear and feel their improvements, driving focused practice.",
+      "example_hook_copy": "Refine your accent! Our Pronunciation Coach gives you real-time feedback to sound clearer and more confident. (Hindi: अपने उच्चारण को निखारें! हमारा उच्चारण कोच आपको स्पष्ट और अधिक आत्मविश्वासी लगने के लिए वास्तविक समय में प्रतिक्रिया देता है।)",
+      "ethical_alignment": "This hook is ethical because it provides direct value by helping users improve a specific skill. It is supportive and focuses on progress, aligning with empowering users through constructive feedback rather than criticism."
+    },
+    {
+      "feature": "Grammar Guardian",
+      "primary_octalysis_drive": 3,
+      "secondary_octalysis_drive": 2,
+      "drive_names": {
+        "primary": "Empowerment of Creativity & Feedback",
+        "secondary": "Development & Accomplishment"
+      },
+      "behavioral_mechanism": "The Grammar Guardian empowers users by providing contextual, real-time corrections during practice, allowing them to learn by doing and immediately understand their mistakes. This mechanism accelerates the internalization of grammar rules, fostering a sense of accomplishment as accuracy improves and reducing the fear of making errors.",
+      "example_hook_copy": "Struggling with grammar? Our Grammar Guardian provides instant, contextual corrections to help you speak perfectly. (Hindi: व्याकरण से जूझ रहे हैं? हमारा ग्रामर गार्जियन आपको सही बोलने में मदद करने के लिए तत्काल, प्रासंगिक सुधार प्रदान करता है।)",
+      "ethical_alignment": "This hook is ethical as it offers immediate, valuable feedback that supports user learning and focuses on progress. It is encouraging and helps users overcome challenges, aligning with providing value and focusing on improvement."
+    },
+    {
+      "feature": "Vocabulary Builder",
+      "primary_octalysis_drive": 3,
+      "secondary_octalysis_drive": 2,
+      "drive_names": {
+        "primary": "Empowerment of Creativity & Feedback",
+        "secondary": "Development & Accomplishment"
+      },
+      "behavioral_mechanism": "The Vocabulary Builder empowers users by providing personalized word recommendations tailored to their learning level, making the process efficient and relevant. This targeted approach accelerates vocabulary expansion, leading to a clear sense of accomplishment and enhancing the user's ability to express themselves more richly.",
+      "example_hook_copy": "Expand your vocabulary! Get personalized word recommendations to enrich your conversations and writing. (Hindi: अपनी शब्दावली का विस्तार करें! अपनी बातचीत और लेखन को समृद्ध करने के लिए व्यक्तिगत शब्द सिफारिशें प्राप्त करें।)",
+      "ethical_alignment": "This hook is ethical as it provides personalized value and focuses on user development. It is encouraging and helps users achieve their learning goals, aligning with providing value and focusing on progress."
+    }
+  ]
+}

@@ -1,0 +1,403 @@
+{
+  "feature_map": {
+    "daily_lessons": {
+      "name": "Daily Lessons",
+      "business_goal": "Retention",
+      "user_utility": [
+        "Structured practice",
+        "Receive AI feedback",
+        "Improve speaking skills"
+      ]
+    },
+    "ai_tutor": {
+      "name": "AI Tutor (Sia)",
+      "business_goal": "Retention",
+      "user_utility": [
+        "Conversational practice",
+        "Real-time pronunciation correction",
+        "Real-time grammar correction",
+        "Build confidence"
+      ]
+    },
+    "role_based_practice": {
+      "name": "Role-Based Practice",
+      "business_goal": "Retention",
+      "user_utility": [
+        "Practice specific scenarios",
+        "Prepare for interviews",
+        "Improve professional communication",
+        "Gain practical experience"
+      ]
+    },
+    "progress_reports": {
+      "name": "Progress Reports",
+      "business_goal": "Retention",
+      "user_utility": [
+        "Track improvement",
+        "Understand strengths and weaknesses",
+        "Stay motivated",
+        "See learning outcomes"
+      ]
+    },
+    "coins": {
+      "name": "Coins",
+      "business_goal": "Retention",
+      "user_utility": [
+        "Earn rewards",
+        "Unlock bonus content",
+        "Incentivize practice"
+      ]
+    },
+    "streaks": {
+      "name": "Streaks",
+      "business_goal": "Retention",
+      "user_utility": [
+        "Track consecutive practice days",
+        "Maintain learning habit",
+        "Protect progress"
+      ]
+    },
+    "leaderboards": {
+      "name": "Leaderboards",
+      "business_goal": "Retention",
+      "user_utility": [
+        "Compete with others",
+        "See rankings",
+        "Stay motivated",
+        "Challenge oneself"
+      ]
+    },
+    "badges_achievements": {
+      "name": "Badges & Achievements",
+      "business_goal": "Retention",
+      "user_utility": [
+        "Receive milestone rewards",
+        "Track consistency",
+        "Celebrate improvement",
+        "Feel accomplished"
+      ]
+    },
+    "sia_chat": {
+      "name": "Sia Chat",
+      "business_goal": "Retention",
+      "user_utility": [
+        "Practice anytime",
+        "Conversational practice",
+        "Get instant feedback"
+      ]
+    },
+    "pronunciation_coach": {
+      "name": "Pronunciation Coach",
+      "business_goal": "Retention",
+      "user_utility": [
+        "Receive real-time accent feedback",
+        "Improve clarity",
+        "Refine pronunciation"
+      ]
+    },
+    "grammar_guardian": {
+      "name": "Grammar Guardian",
+      "business_goal": "Retention",
+      "user_utility": [
+        "Get contextual grammar corrections",
+        "Improve grammatical accuracy",
+        "Learn correct usage"
+      ]
+    },
+    "vocabulary_builder": {
+      "name": "Vocabulary Builder",
+      "business_goal": "Retention",
+      "user_utility": [
+        "Receive personalized word recommendations",
+        "Expand vocabulary",
+        "Learn new words"
+      ]
+    }
+  },
+  "segment_strategies": {
+    "0": {
+      "inferred_segment_name": "Inactive_Socialite",
+      "strategy": {
+        "primary_goal": "Re-engage inactive users by leveraging their social and achievement drives to establish a consistent practice habit and prevent churn.",
+        "sub_goals": [
+          "Prompt immediate re-engagement with a low-friction, socially-oriented activity.",
+          "Incentivize small, consistent actions through gamified achievement and social sharing.",
+          "Transition to regular, low-pressure conversational practice that feels social and rewarding."
+        ]
+      },
+      "progression_path": [
+        {
+          "time_unit": "Day 1",
+          "focus_feature_id": "leaderboards",
+          "user_task": "Check your current ranking on the global leaderboard and see how you compare to friends.",
+          "rationale": "This initial touchpoint directly appeals to the user's dominant social and achievement drives, providing a low-friction reason to re-open the app. It immediately showcases a competitive element without requiring active learning, making re-engagement less daunting for an inactive user."
+        },
+        {
+          "time_unit": "Day 7",
+          "focus_feature_id": "badges_achievements",
+          "user_task": "Complete a quick practice challenge to earn your first achievement badge and share it with friends.",
+          "rationale": "By offering a tangible reward for a small action, this step leverages the user's achievement propensity and provides a sense of accomplishment. The option to share the badge further reinforces their social drive, encouraging continued engagement and potentially inviting others to join or compete."
+        },
+        {
+          "time_unit": "Day 14",
+          "focus_feature_id": "sia_chat",
+          "user_task": "Engage in a short, fun conversation with Sia Chat to earn daily coins and maintain your streak.",
+          "rationale": "This encourages daily, low-pressure conversational practice, appealing to their desire for interaction without the intensity of structured learning. Earning coins and maintaining a streak taps into their gamification and achievement drives, fostering a consistent habit through positive reinforcement."
+        },
+        {
+          "time_unit": "Day 30",
+          "focus_feature_id": "ai_tutor",
+          "user_task": "Challenge yourself with an AI Tutor conversation scenario to refine your speaking skills and climb the leaderboards.",
+          "rationale": "This step encourages more substantial conversational practice, framed as a challenge to improve and compete. The AI Tutor provides real-time feedback, which helps users feel they are genuinely improving their communication for social contexts, reinforcing their social and achievement motivations for sustained engagement."
+        }
+      ]
+    },
+    "1": {
+      "inferred_segment_name": "Inactive_Social_Learners",
+      "strategy": {
+        "primary_goal": "Re-engage inactive users by leveraging their social and learning drives to improve long-term retention.",
+        "sub_goals": [
+          "Re-activate consistent engagement with core learning features.",
+          "Foster a sense of friendly competition and social connection.",
+          "Demonstrate tangible progress and reinforce achievement."
+        ]
+      },
+      "progression_path": [
+        {
+          "time_unit": "Day 1",
+          "focus_feature_id": "daily_lessons",
+          "user_task": "Complete your first daily lesson to re-activate your learning streak and receive immediate feedback.",
+          "rationale": "Inactive users require a clear, low-friction entry point to re-engage with the product. Daily lessons provide structured practice and immediate AI feedback, catering directly to their learning propensity and helping them quickly re-establish a consistent learning habit."
+        },
+        {
+          "time_unit": "Day 7",
+          "focus_feature_id": "leaderboards",
+          "user_task": "Check your ranking on the leaderboard and aim to improve your score by completing more lessons.",
+          "rationale": "After a week of re-engagement, users are ready for features that tap into their dominant social and achievement drives. Leaderboards provide a competitive element and social comparison, motivating them to continue practicing and improve their standing, directly leveraging their past interest in this feature."
+        },
+        {
+          "time_unit": "Day 14",
+          "focus_feature_id": "progress_reports",
+          "user_task": "Review your personalized progress report to identify areas of improvement and celebrate your achievements.",
+          "rationale": "By Day 14, users need to see tangible results of their efforts to stay motivated and reinforce their learning journey. Progress reports highlight their improvement and provide insights into their strengths and weaknesses, catering to their learning and achievement propensities."
+        },
+        {
+          "time_unit": "Day 30",
+          "focus_feature_id": "ai_tutor",
+          "user_task": "Engage in a conversation with the AI Tutor to practice real-time speaking and build confidence in your communication skills.",
+          "rationale": "For long-term retention, users need to feel confident in applying their skills in conversational settings, which directly aligns with their dominant social drive. The AI Tutor provides a safe and effective environment for real-time conversational practice, building confidence and reinforcing their learning journey through instant feedback."
+        }
+      ]
+    },
+    "2": {
+      "inferred_segment_name": "Paid_Social_Achiever",
+      "strategy": {
+        "primary_goal": "Maximize long-term engagement and advocacy by leveraging social interaction and achievement recognition.",
+        "sub_goals": [
+          "Foster competitive engagement through leaderboards and challenges.",
+          "Reinforce consistent practice with visible achievement milestones.",
+          "Provide tangible proof of progress to encourage sharing and continued commitment."
+        ]
+      },
+      "progression_path": [
+        {
+          "time_unit": "Week 1",
+          "focus_feature_id": "leaderboards",
+          "user_task": "Engage in competitive practice to see your ranking among peers.",
+          "rationale": "This cohort exhibits a dominant social propensity and high gamification/achievement scores. Introducing leaderboards early will immediately tap into their competitive spirit and desire to see how they stack up against others, fostering initial engagement and a sense of belonging within the community."
+        },
+        {
+          "time_unit": "Week 2",
+          "focus_feature_id": "badges_achievements",
+          "user_task": "Earn your first achievement badge by completing a significant learning milestone.",
+          "rationale": "After initial competitive engagement, recognizing individual progress through badges reinforces their achievement drive and provides tangible rewards. This also offers social proof of their dedication, which is important for a socially driven user, encouraging continued consistent practice."
+        },
+        {
+          "time_unit": "Week 4",
+          "focus_feature_id": "progress_reports",
+          "user_task": "Review your monthly progress report to identify areas for improvement and share your achievements.",
+          "rationale": "By Week 4, users benefit from seeing their cumulative progress, which directly appeals to their achievement drive and provides motivation for continued learning. This report can also serve as a talking point for social sharing, allowing them to showcase their dedication and improvement within their network, further solidifying their commitment to the platform."
+        }
+      ]
+    },
+    "3": {
+      "inferred_segment_name": "Inactive_Socialite",
+      "strategy": {
+        "primary_goal": "Re-engage inactive users by leveraging their social and achievement drives to foster consistent product interaction.",
+        "sub_goals": [
+          "Encourage initial re-engagement with a low-friction social or competitive feature.",
+          "Motivate continued interaction through achievement-based recognition and progress tracking.",
+          "Integrate social learning into their routine to build a sustainable habit and reduce churn risk."
+        ]
+      },
+      "progression_path": [
+        {
+          "time_unit": "Day 1",
+          "focus_feature_id": "leaderboards",
+          "user_task": "Check your current ranking on the leaderboard and see how you compare to others.",
+          "rationale": "This feature directly appeals to their high social and achievement propensities, offering a competitive hook to draw them back into the app. Seeing their standing relative to others can spark a desire to improve and re-engage with practice, leveraging their inherent drive for social comparison."
+        },
+        {
+          "time_unit": "Day 7",
+          "focus_feature_id": "badges_achievements",
+          "user_task": "Earn a new badge by completing a specific practice challenge or reaching a milestone.",
+          "rationale": "Leveraging their achievement drive, this encourages users to set and accomplish small goals within the app, providing a sense of progress. Earning badges offers tangible recognition of their efforts, fostering a sense of accomplishment that can motivate continued use and deeper engagement."
+        },
+        {
+          "time_unit": "Day 14",
+          "focus_feature_id": "sia_chat",
+          "user_task": "Engage in a conversational practice session with Sia and share a snippet of your conversation with a friend.",
+          "rationale": "This feature provides a low-pressure environment for conversational practice, appealing to their social nature by simulating interaction and offering instant feedback. The ability to share progress or interesting conversational moments can further enhance their sense of connection and provide social validation."
+        },
+        {
+          "time_unit": "Day 30",
+          "focus_feature_id": "streaks",
+          "user_task": "Maintain a 7-day streak to protect your progress and unlock a bonus reward.",
+          "rationale": "Streaks tap into the user's desire for consistency and achievement, providing a clear visual representation of their commitment and progress. This gamified element encourages daily engagement, transforming sporadic use into a regular habit and significantly reducing long-term churn risk."
+        }
+      ]
+    },
+    "4": {
+      "inferred_segment_name": "Dormant_Social",
+      "strategy": {
+        "primary_goal": "Re-engage inactive users by leveraging their social and gamification propensities to foster consistent platform interaction and reduce churn risk.",
+        "sub_goals": [
+          "Prompt initial re-engagement through competitive or social features.",
+          "Incentivize daily practice by highlighting gamified progress and rewards.",
+          "Demonstrate the value of consistent engagement by showcasing personal improvement and social standing."
+        ]
+      },
+      "progression_path": [
+        {
+          "time_unit": "Day 1",
+          "focus_feature_id": "leaderboards",
+          "user_task": "Check current ranking on the leaderboard and see how they compare to friends or other users.",
+          "rationale": "This initial touchpoint directly taps into the user's dominant social and competitive drives, offering a low-friction way to re-engage. Seeing their standing relative to others can spark immediate interest and a desire to improve, pulling them back into the application."
+        },
+        {
+          "time_unit": "Day 7",
+          "focus_feature_id": "streaks",
+          "user_task": "Complete a daily lesson or practice session to maintain their streak and protect their progress.",
+          "rationale": "After an initial re-engagement, leveraging the 'Streaks' feature taps into their gamification propensity to build a consistent daily habit. This provides a clear, tangible goal that motivates continued interaction and reduces the likelihood of falling back into inactivity by creating a sense of investment."
+        },
+        {
+          "time_unit": "Day 14",
+          "focus_feature_id": "badges_achievements",
+          "user_task": "Earn a new badge or achievement by completing a specific learning challenge or reaching a practice milestone.",
+          "rationale": "Celebrating achievements through badges reinforces the gamification aspect, providing positive feedback and a sense of accomplishment. This encourages users to continue engaging with the platform by offering tangible rewards for their efforts, making their return feel more worthwhile and progressive."
+        },
+        {
+          "time_unit": "Day 30",
+          "focus_feature_id": "progress_reports",
+          "user_task": "Review their progress report to see how their consistent practice has improved their speaking skills and identify areas for further social interaction practice.",
+          "rationale": "Providing a progress report allows users to visualize their improvement over time, validating their efforts and reinforcing the value of their engagement. While their learning propensity is low, seeing tangible results from their gamified and social interactions can motivate them to continue, potentially linking their progress to future social communication goals."
+        }
+      ]
+    },
+    "5": {
+      "inferred_segment_name": "Dormant_Achiever",
+      "strategy": {
+        "primary_goal": "Re-activate inactive users by leveraging their strong achievement drive to foster consistent engagement.",
+        "sub_goals": [
+          "Incentivize initial re-engagement with immediate, tangible rewards.",
+          "Guide users to visualize their progress and celebrate milestones.",
+          "Cultivate a habit of consistent practice through visible achievements and competitive challenges."
+        ]
+      },
+      "progression_path": [
+        {
+          "time_unit": "Day 1",
+          "focus_feature_id": "badges_achievements",
+          "user_task": "Complete a quick 'Welcome Back' challenge to earn a re-engagement badge.",
+          "rationale": "This initial step directly appeals to the user's achievement drive by offering an immediate, tangible reward (a badge) for a low-effort re-engagement activity. It provides a quick win, making their return feel recognized and productive, which is crucial for an inactive user."
+        },
+        {
+          "time_unit": "Day 7",
+          "focus_feature_id": "progress_reports",
+          "user_task": "Review your personalized progress report to see your recent improvements and identify new goals.",
+          "rationale": "By directing users to their progress reports, we tap into their desire for achievement by allowing them to visualize their learning journey and identify tangible improvements. This feature provides clear metrics and insights, reinforcing their sense of accomplishment and motivating continued engagement by showing them what they've gained."
+        },
+        {
+          "time_unit": "Day 14",
+          "focus_feature_id": "badges_achievements",
+          "user_task": "Earn a 'Consistent Learner' badge by completing 10 lessons or practice sessions this week.",
+          "rationale": "This step leverages the achievement drive by setting a clear, attainable goal tied to a visible reward (a badge) for sustained effort. It encourages consistent practice over a longer period and provides a sense of accomplishment upon reaching a specific milestone, reinforcing the value of their continued engagement."
+        },
+        {
+          "time_unit": "Day 30",
+          "focus_feature_id": "leaderboards",
+          "user_task": "Check your ranking on the leaderboards and set a personal goal to climb higher next month.",
+          "rationale": "Introducing leaderboards at this stage taps into their achievement drive by providing a competitive element and a clear metric for long-term progress. It allows users to benchmark their performance, fostering a desire for continuous improvement and sustained engagement through the pursuit of higher rankings and personal challenge."
+        }
+      ]
+    },
+    "6": {
+      "inferred_segment_name": "Dormant_Scholar",
+      "strategy": {
+        "primary_goal": "Reactivate and sustain engagement by demonstrating clear learning progress and practical skill application.",
+        "sub_goals": [
+          "Re-establish a consistent daily learning habit.",
+          "Showcase personalized improvement and provide actionable feedback.",
+          "Facilitate the application of learned skills in practical scenarios."
+        ]
+      },
+      "progression_path": [
+        {
+          "time_unit": "Day 1",
+          "focus_feature_id": "daily_lessons",
+          "user_task": "Complete your first daily lesson to refresh your language skills and receive initial AI feedback.",
+          "rationale": "This feature offers structured practice and AI feedback, directly appealing to their high learning propensity. Starting with a simple, guided lesson can reduce friction for an inactive user and re-introduce them to the core value proposition of the product."
+        },
+        {
+          "time_unit": "Day 7",
+          "focus_feature_id": "ai_tutor",
+          "user_task": "Engage in a conversational practice session with the AI Tutor to apply what you've learned and get real-time corrections.",
+          "rationale": "The AI Tutor provides real-time pronunciation and grammar correction, which is crucial for learners focused on improvement and accuracy. This feature allows for flexible, conversational practice, directly addressing their desire for practical application and confidence building."
+        },
+        {
+          "time_unit": "Day 14",
+          "focus_feature_id": "progress_reports",
+          "user_task": "Review your personalized progress report to understand your improvement and identify specific areas for growth.",
+          "rationale": "This feature directly caters to their learning drive by providing clear insights into their performance and improvement over time. Seeing tangible progress can significantly boost motivation and reinforce the value of continued engagement for a learner-focused user."
+        },
+        {
+          "time_unit": "Day 30",
+          "focus_feature_id": "role_based_practice",
+          "user_task": "Practice a specific real-world scenario using Role-Based Practice to refine your professional communication skills.",
+          "rationale": "This feature allows users to apply their learned skills in practical, simulated environments, which is highly valuable for a learner-driven cohort. It helps them prepare for real-life situations and reinforces the utility of the language skills they are acquiring, fostering long-term engagement."
+        }
+      ]
+    },
+    "7": {
+      "inferred_segment_name": "Paid_Competitive",
+      "strategy": {
+        "primary_goal": "Maximize long-term engagement and retention by fostering a sense of achievement and competitive mastery.",
+        "sub_goals": [
+          "Encourage consistent daily interaction through gamified elements.",
+          "Leverage social comparison and competition to drive sustained activity.",
+          "Provide clear pathways for earning rewards and recognizing milestones."
+        ]
+      },
+      "progression_path": [
+        {
+          "time_unit": "Week 1",
+          "focus_feature_id": "streaks",
+          "user_task": "Maintain a daily practice streak to protect progress and earn rewards.",
+          "rationale": "Streaks are a powerful gamification tool that directly appeals to the user's high gamification and achievement drive. By focusing on maintaining a streak, users are incentivized to return daily, establishing a consistent habit without relying solely on intrinsic learning motivation."
+        },
+        {
+          "time_unit": "Week 2",
+          "focus_feature_id": "badges_achievements",
+          "user_task": "Complete specific challenges to earn new badges and unlock achievements.",
+          "rationale": "Badges and achievements provide clear, milestone-based recognition for effort and consistency, directly tapping into the user's high achievement propensity. This reinforces engagement by celebrating progress and offering tangible symbols of accomplishment, which is more motivating for this cohort than pure skill acquisition."
+        },
+        {
+          "time_unit": "Week 4",
+          "focus_feature_id": "leaderboards",
+          "user_task": "Compete with other users and monitor their ranking on the leaderboards.",
+          "rationale": "Leaderboards are ideal for leveraging the user's high social and gamification propensities by introducing a competitive element. This feature provides an external motivator for sustained engagement, encouraging users to strive for higher rankings and challenge themselves against peers, thereby fostering long-term retention."
+        }
+      ]
+    }
+  }
+}

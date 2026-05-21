@@ -1,0 +1,136 @@
+template_id,segment_id,lifecycle_stage,goal,theme,notification_window,total_sends,total_opens,total_engagements,ctr,engagement_rate,uninstall_rate,performance_status
+TPL-FDF2995C,S4,paid,Increase gamification engagement • deepening engagement & retention,accomplishment,evening,3884,730,158,0.1881,0.2170,0.0099,NEUTRAL
+TPL-5440FFFA,S4,paid,Increase gamification engagement • deepening engagement & retention,accomplishment,evening,2549,233,94,0.0917,0.4048,0.0083,NEUTRAL
+TPL-F79AAE86,S4,paid,Increase gamification engagement • deepening engagement & retention,accomplishment,evening,2560,555,325,0.2172,0.5869,0.0138,GOOD
+TPL-EBB90149,S4,paid,Increase gamification engagement • deepening engagement & retention,accomplishment,evening,2084,46,6,0.0222,0.1427,0.0290,BAD
+TPL-9F44205A,S4,paid,Increase gamification engagement • deepening engagement & retention,accomplishment,evening,1654,302,129,0.1826,0.4300,0.0138,GOOD
+TPL-70609D50,S4,churned,Increase gamification engagement • re-engagement & recovering lost habits,accomplishment,evening,2461,519,260,0.2110,0.5023,0.0028,GOOD
+TPL-7B448BD4,S4,churned,Increase gamification engagement • re-engagement & recovering lost habits,accomplishment,evening,4563,1315,792,0.2882,0.6030,0.0063,GOOD
+TPL-91C509E8,S4,churned,Increase gamification engagement • re-engagement & recovering lost habits,accomplishment,evening,1186,194,84,0.1642,0.4352,0.0059,GOOD
+TPL-A41DDFDD,S4,churned,Increase gamification engagement • re-engagement & recovering lost habits,accomplishment,evening,846,43,14,0.0511,0.3283,0.0175,NEUTRAL
+TPL-7F138BBA,S4,churned,Increase gamification engagement • re-engagement & recovering lost habits,accomplishment,evening,4115,801,197,0.1947,0.2463,0.0206,NEUTRAL
+TPL-3CF45B8F,S4,inactive,Increase gamification engagement • compelling return value proposition,accomplishment,evening,3917,1053,669,0.2690,0.6361,0.0062,GOOD
+TPL-AB1B1589,S4,inactive,Increase gamification engagement • compelling return value proposition,accomplishment,evening,2517,542,282,0.2155,0.5215,0.0064,GOOD
+TPL-7C6E83C5,S4,inactive,Increase gamification engagement • compelling return value proposition,accomplishment,evening,1736,322,166,0.1857,0.5167,0.0099,GOOD
+TPL-02E0ABF0,S4,inactive,Increase gamification engagement • compelling return value proposition,accomplishment,evening,3878,1037,543,0.2675,0.5244,0.0120,GOOD
+TPL-46ED6BAB,S4,inactive,Increase gamification engagement • compelling return value proposition,accomplishment,evening,3555,293,33,0.0825,0.1142,0.0273,BAD
+TPL-E350067F,S4,trial,Increase gamification engagement • rapid adoption & habit formation,accomplishment,evening,4539,252,32,0.0556,0.1284,0.0171,BAD
+TPL-3C2ABA99,S4,trial,Increase gamification engagement • rapid adoption & habit formation,accomplishment,evening,1695,120,49,0.0713,0.4123,0.0086,NEUTRAL
+TPL-27AE05CF,S4,trial,Increase gamification engagement • rapid adoption & habit formation,accomplishment,evening,1258,76,35,0.0609,0.4607,0.0182,NEUTRAL
+TPL-8174AC3B,S4,trial,Increase gamification engagement • rapid adoption & habit formation,accomplishment,evening,1388,88,39,0.0640,0.4506,0.0167,NEUTRAL
+TPL-FF682F5B,S4,trial,Increase gamification engagement • rapid adoption & habit formation,accomplishment,evening,3996,764,288,0.1913,0.3781,0.0203,NEUTRAL
+TPL-3D16D34F,S7,paid,Increase gamification engagement • deepening engagement & retention,loss_avoidance,evening,1346,229,93,0.1708,0.4102,0.0067,GOOD
+TPL-D4412CB6,S7,paid,Increase gamification engagement • deepening engagement & retention,loss_avoidance,evening,3303,256,39,0.0777,0.1548,0.0156,BAD
+TPL-06D021EE,S7,paid,Increase gamification engagement • deepening engagement & retention,loss_avoidance,evening,1540,104,45,0.0676,0.4398,0.0209,NEUTRAL
+TPL-FC9167F0,S7,paid,Increase gamification engagement • deepening engagement & retention,loss_avoidance,evening,1554,26,7,0.0172,0.2808,0.0287,BAD
+TPL-DB50D633,S7,paid,Increase gamification engagement • deepening engagement & retention,loss_avoidance,evening,1446,252,154,0.1747,0.6123,0.0064,GOOD
+TPL-BC649A7F,S7,churned,Increase gamification engagement • re-engagement & recovering lost habits,loss_avoidance,evening,847,128,71,0.1517,0.5601,0.0077,GOOD
+TPL-ADE58C48,S7,churned,Increase gamification engagement • re-engagement & recovering lost habits,loss_avoidance,evening,1741,126,61,0.0724,0.4868,0.0148,NEUTRAL
+TPL-AC98A008,S7,churned,Increase gamification engagement • re-engagement & recovering lost habits,loss_avoidance,evening,2846,196,23,0.0690,0.1187,0.0202,BAD
+TPL-6440FCEF,S7,churned,Increase gamification engagement • re-engagement & recovering lost habits,loss_avoidance,evening,2779,269,97,0.0971,0.3628,0.0099,NEUTRAL
+TPL-E084805A,S7,churned,Increase gamification engagement • re-engagement & recovering lost habits,loss_avoidance,evening,3459,856,539,0.2477,0.6306,0.0033,GOOD
+TPL-C483A1E8,S7,inactive,Increase gamification engagement • compelling return value proposition,loss_avoidance,evening,1729,124,65,0.0721,0.5267,0.0187,NEUTRAL
+TPL-316E2FEC,S7,inactive,Increase gamification engagement • compelling return value proposition,loss_avoidance,evening,2251,462,265,0.2054,0.5744,0.0113,GOOD
+TPL-25889EAD,S7,inactive,Increase gamification engagement • compelling return value proposition,loss_avoidance,evening,3892,1043,525,0.2680,0.5041,0.0059,GOOD
+TPL-B290237A,S7,inactive,Increase gamification engagement • compelling return value proposition,loss_avoidance,evening,3267,557,119,0.1705,0.2148,0.0130,NEUTRAL
+TPL-B58133EC,S7,inactive,Increase gamification engagement • compelling return value proposition,loss_avoidance,evening,4697,268,31,0.0571,0.1172,0.0236,BAD
+TPL-CF2E7EE3,S7,trial,Increase gamification engagement • rapid adoption & habit formation,loss_avoidance,evening,2470,221,99,0.0898,0.4481,0.0133,NEUTRAL
+TPL-7F507F27,S7,trial,Increase gamification engagement • rapid adoption & habit formation,loss_avoidance,evening,1714,123,54,0.0718,0.4457,0.0181,NEUTRAL
+TPL-3981E26B,S7,trial,Increase gamification engagement • rapid adoption & habit formation,loss_avoidance,evening,4610,259,38,0.0563,0.1484,0.0227,BAD
+TPL-52FC49CB,S7,trial,Increase gamification engagement • rapid adoption & habit formation,loss_avoidance,evening,1000,11,1,0.0119,0.1151,0.0174,BAD
+TPL-EB98AE64,S7,trial,Increase gamification engagement • rapid adoption & habit formation,loss_avoidance,evening,3414,849,356,0.2488,0.4196,0.0104,GOOD
+TPL-CC9D7166,S5,paid,Increase ai_tutor engagement • deepening engagement & retention,accomplishment,evening,2227,187,74,0.0840,0.3970,0.0196,NEUTRAL
+TPL-4B4B7134,S5,paid,Increase ai_tutor engagement • deepening engagement & retention,accomplishment,evening,2128,173,63,0.0816,0.3695,0.0177,NEUTRAL
+TPL-7FD06B7D,S5,paid,Increase ai_tutor engagement • deepening engagement & retention,accomplishment,evening,4909,1506,771,0.3068,0.5123,0.0068,GOOD
+TPL-999C6BD2,S5,paid,Increase ai_tutor engagement • deepening engagement & retention,accomplishment,evening,2601,241,101,0.0929,0.4222,0.0100,NEUTRAL
+TPL-548493A9,S5,paid,Increase ai_tutor engagement • deepening engagement & retention,accomplishment,evening,2022,159,50,0.0791,0.3145,0.0199,NEUTRAL
+TPL-0455396B,S5,churned,Increase ai_tutor engagement • re-engagement & recovering lost habits,accomplishment,evening,2604,242,101,0.0930,0.4188,0.0141,NEUTRAL
+TPL-762F1706,S5,churned,Increase ai_tutor engagement • re-engagement & recovering lost habits,accomplishment,evening,4133,213,29,0.0517,0.1402,0.0208,BAD
+TPL-03523272,S5,churned,Increase ai_tutor engagement • re-engagement & recovering lost habits,accomplishment,evening,3329,573,213,0.1723,0.3734,0.0146,NEUTRAL
+TPL-11DFD542,S5,churned,Increase ai_tutor engagement • re-engagement & recovering lost habits,accomplishment,evening,2866,647,353,0.2259,0.5461,0.0100,GOOD
+TPL-C3A9E3D0,S5,churned,Increase ai_tutor engagement • re-engagement & recovering lost habits,accomplishment,evening,4952,1497,888,0.3025,0.5936,0.0030,GOOD
+TPL-181F984E,S5,inactive,Increase ai_tutor engagement • compelling return value proposition,accomplishment,evening,1361,233,98,0.1714,0.4227,0.0108,GOOD
+TPL-B7277EB2,S5,inactive,Increase ai_tutor engagement • compelling return value proposition,accomplishment,evening,985,53,27,0.0544,0.5278,0.0122,NEUTRAL
+TPL-3C3A8EF9,S5,inactive,Increase ai_tutor engagement • compelling return value proposition,accomplishment,evening,1297,219,103,0.1690,0.4738,0.0045,GOOD
+TPL-89929EBB,S5,inactive,Increase ai_tutor engagement • compelling return value proposition,accomplishment,evening,4891,1497,651,0.3061,0.4351,0.0075,GOOD
+TPL-88497FD9,S5,inactive,Increase ai_tutor engagement • compelling return value proposition,accomplishment,evening,3349,578,218,0.1728,0.3785,0.0152,NEUTRAL
+TPL-1037C160,S5,trial,Increase ai_tutor engagement • rapid adoption & habit formation,accomplishment,evening,2438,216,57,0.0890,0.2657,0.0111,NEUTRAL
+TPL-A5C21047,S5,trial,Increase ai_tutor engagement • rapid adoption & habit formation,accomplishment,evening,4400,892,310,0.2029,0.3479,0.0143,NEUTRAL
+TPL-6D243A69,S5,trial,Increase ai_tutor engagement • rapid adoption & habit formation,accomplishment,evening,2806,274,98,0.0978,0.3596,0.0102,NEUTRAL
+TPL-2F67D2D5,S5,trial,Increase ai_tutor engagement • rapid adoption & habit formation,accomplishment,evening,2481,223,98,0.0900,0.4439,0.0122,NEUTRAL
+TPL-38A4641B,S5,trial,Increase ai_tutor engagement • rapid adoption & habit formation,accomplishment,evening,4625,261,34,0.0564,0.1316,0.0211,BAD
+TPL-251B2C68,S6,paid,Increase leaderboard engagement • deepening engagement & retention,social_influence,evening,3249,552,190,0.1700,0.3449,0.0209,NEUTRAL
+TPL-AD416000,S6,paid,Increase leaderboard engagement • deepening engagement & retention,social_influence,evening,1038,57,19,0.0557,0.3507,0.0124,NEUTRAL
+TPL-E7603D19,S6,paid,Increase leaderboard engagement • deepening engagement & retention,social_influence,evening,1459,255,156,0.1752,0.6119,0.0037,GOOD
+TPL-87DE8A72,S6,paid,Increase leaderboard engagement • deepening engagement & retention,social_influence,evening,4457,1290,522,0.2896,0.4047,0.0127,GOOD
+TPL-B9E89D69,S6,paid,Increase leaderboard engagement • deepening engagement & retention,social_influence,evening,4624,1368,719,0.2959,0.5261,0.0041,GOOD
+TPL-19050726,S6,churned,Increase leaderboard engagement • re-engagement & recovering lost habits,social_influence,evening,4618,965,199,0.2091,0.2063,0.0114,NEUTRAL
+TPL-25C0BE9D,S6,churned,Increase leaderboard engagement • re-engagement & recovering lost habits,social_influence,evening,3801,706,212,0.1858,0.3009,0.0106,NEUTRAL
+TPL-5B81B890,S6,churned,Increase leaderboard engagement • re-engagement & recovering lost habits,social_influence,evening,802,40,19,0.0501,0.4835,0.0125,NEUTRAL
+TPL-746D51D3,S6,churned,Increase leaderboard engagement • re-engagement & recovering lost habits,social_influence,evening,2097,414,219,0.1977,0.5306,0.0099,GOOD
+TPL-56BBF2DB,S6,churned,Increase leaderboard engagement • re-engagement & recovering lost habits,social_influence,evening,1788,333,166,0.1863,0.4986,0.0022,GOOD
+TPL-F7CB3462,S6,inactive,Increase leaderboard engagement • compelling return value proposition,social_influence,evening,1708,315,160,0.1846,0.5100,0.0029,GOOD
+TPL-D4F405E7,S6,inactive,Increase leaderboard engagement • compelling return value proposition,social_influence,evening,1612,291,126,0.1810,0.4346,0.0031,GOOD
+TPL-C7EFD379,S6,inactive,Increase leaderboard engagement • compelling return value proposition,social_influence,evening,2717,259,104,0.0956,0.4040,0.0131,NEUTRAL
+TPL-DD6C1CB5,S6,inactive,Increase leaderboard engagement • compelling return value proposition,social_influence,evening,834,42,17,0.0508,0.4176,0.0204,NEUTRAL
+TPL-C50273E1,S6,inactive,Increase leaderboard engagement • compelling return value proposition,social_influence,evening,3693,314,40,0.0851,0.1302,0.0339,BAD
+TPL-AB7EBD47,S6,trial,Increase leaderboard engagement • rapid adoption & habit formation,social_influence,evening,1749,325,174,0.1859,0.5359,0.0066,GOOD
+TPL-19296926,S6,trial,Increase leaderboard engagement • rapid adoption & habit formation,social_influence,evening,4207,830,236,0.1974,0.2847,0.0204,NEUTRAL
+TPL-D19D0551,S6,trial,Increase leaderboard engagement • rapid adoption & habit formation,social_influence,evening,4436,1275,626,0.2875,0.4911,0.0092,GOOD
+TPL-D2EA267F,S6,trial,Increase leaderboard engagement • rapid adoption & habit formation,social_influence,evening,3668,667,253,0.1820,0.3795,0.0213,NEUTRAL
+TPL-6CCEED97,S6,trial,Increase leaderboard engagement • rapid adoption & habit formation,social_influence,evening,3030,496,113,0.1637,0.2297,0.0118,NEUTRAL
+TPL-2B50D1E0,S9,paid,Increase leaderboard engagement • deepening engagement & retention,loss_avoidance,evening,940,146,78,0.1554,0.5382,0.0134,GOOD
+TPL-FEBDA7D8,S9,paid,Increase leaderboard engagement • deepening engagement & retention,loss_avoidance,evening,1541,26,3,0.0171,0.1165,0.0168,BAD
+TPL-F716CEF1,S9,paid,Increase leaderboard engagement • deepening engagement & retention,loss_avoidance,evening,2530,230,113,0.0912,0.4920,0.0156,NEUTRAL
+TPL-389C51CC,S9,paid,Increase leaderboard engagement • deepening engagement & retention,loss_avoidance,evening,4943,1079,286,0.2184,0.2660,0.0140,NEUTRAL
+TPL-955DF27C,S9,paid,Increase leaderboard engagement • deepening engagement & retention,loss_avoidance,evening,2202,51,8,0.0234,0.1755,0.0164,BAD
+TPL-2DEA75E1,S9,churned,Increase leaderboard engagement • re-engagement & recovering lost habits,loss_avoidance,evening,3194,759,344,0.2379,0.4541,0.0096,GOOD
+TPL-7E7BF3D7,S9,churned,Increase leaderboard engagement • re-engagement & recovering lost habits,loss_avoidance,evening,3682,942,559,0.2559,0.5935,0.0097,GOOD
+TPL-E3E5115F,S9,churned,Increase leaderboard engagement • re-engagement & recovering lost habits,loss_avoidance,evening,1347,229,127,0.1701,0.5571,0.0072,GOOD
+TPL-57FE9D75,S9,churned,Increase leaderboard engagement • re-engagement & recovering lost habits,loss_avoidance,evening,3429,600,174,0.1751,0.2913,0.0129,NEUTRAL
+TPL-5E0A7304,S9,churned,Increase leaderboard engagement • re-engagement & recovering lost habits,loss_avoidance,evening,1149,15,2,0.0133,0.1699,0.0270,BAD
+TPL-DE4AA0BA,S9,inactive,Increase leaderboard engagement • compelling return value proposition,loss_avoidance,evening,1664,304,157,0.1830,0.5196,0.0111,GOOD
+TPL-5DBAA0A9,S9,inactive,Increase leaderboard engagement • compelling return value proposition,loss_avoidance,evening,1076,60,18,0.0566,0.3055,0.0188,NEUTRAL
+TPL-E3541D7A,S9,inactive,Increase leaderboard engagement • compelling return value proposition,loss_avoidance,evening,3369,584,129,0.1734,0.2220,0.0092,NEUTRAL
+TPL-F4AC4391,S9,inactive,Increase leaderboard engagement • compelling return value proposition,loss_avoidance,evening,3687,959,451,0.2602,0.4711,0.0138,GOOD
+TPL-9A17F54D,S9,inactive,Increase leaderboard engagement • compelling return value proposition,loss_avoidance,evening,2707,179,27,0.0663,0.1541,0.0236,BAD
+TPL-10817DF7,S9,trial,Increase leaderboard engagement • rapid adoption & habit formation,loss_avoidance,evening,1072,13,4,0.0126,0.3432,0.0342,BAD
+TPL-047F4101,S9,trial,Increase leaderboard engagement • rapid adoption & habit formation,loss_avoidance,evening,2614,571,252,0.2186,0.4422,0.0100,GOOD
+TPL-5C2F428C,S9,trial,Increase leaderboard engagement • rapid adoption & habit formation,loss_avoidance,evening,2700,178,14,0.0662,0.0796,0.0213,BAD
+TPL-E587B609,S9,trial,Increase leaderboard engagement • rapid adoption & habit formation,loss_avoidance,evening,2585,562,313,0.2175,0.5572,0.0054,GOOD
+TPL-8AE7E088,S9,trial,Increase leaderboard engagement • rapid adoption & habit formation,loss_avoidance,evening,4225,1180,706,0.2795,0.5988,0.0087,GOOD
+TPL-2540ECF4,S2,paid,Increase ai_tutor engagement • deepening engagement & retention,accomplishment,evening,4498,248,26,0.0552,0.1054,0.0295,BAD
+TPL-BD9FA562,S2,paid,Increase ai_tutor engagement • deepening engagement & retention,accomplishment,evening,1959,152,76,0.0776,0.5030,0.0090,NEUTRAL
+TPL-30968171,S2,paid,Increase ai_tutor engagement • deepening engagement & retention,accomplishment,evening,3624,934,584,0.2578,0.6254,0.0065,GOOD
+TPL-895942AD,S2,paid,Increase ai_tutor engagement • deepening engagement & retention,accomplishment,evening,2541,549,266,0.2164,0.4858,0.0134,GOOD
+TPL-44A77FB0,S2,paid,Increase ai_tutor engagement • deepening engagement & retention,accomplishment,evening,4593,1353,835,0.2947,0.6176,0.0075,GOOD
+TPL-89B74DD4,S2,churned,Increase ai_tutor engagement • re-engagement & recovering lost habits,accomplishment,evening,4410,1246,774,0.2826,0.6216,0.0064,GOOD
+TPL-C314CD6E,S2,churned,Increase ai_tutor engagement • re-engagement & recovering lost habits,accomplishment,evening,1257,76,23,0.0609,0.3055,0.0173,NEUTRAL
+TPL-B26A38ED,S2,churned,Increase ai_tutor engagement • re-engagement & recovering lost habits,accomplishment,evening,3254,249,31,0.0767,0.1281,0.0157,BAD
+TPL-1FDD98F0,S2,churned,Increase ai_tutor engagement • re-engagement & recovering lost habits,accomplishment,evening,3722,682,204,0.1835,0.3004,0.0103,NEUTRAL
+TPL-7BA4A789,S2,churned,Increase ai_tutor engagement • re-engagement & recovering lost habits,accomplishment,evening,2376,59,8,0.0250,0.1498,0.0268,BAD
+TPL-AD55E188,S2,inactive,Increase ai_tutor engagement • compelling return value proposition,accomplishment,evening,3119,518,196,0.1663,0.3794,0.0160,NEUTRAL
+TPL-06E6C9B9,S2,inactive,Increase ai_tutor engagement • compelling return value proposition,accomplishment,evening,2997,487,175,0.1628,0.3612,0.0090,NEUTRAL
+TPL-FEC38C54,S2,inactive,Increase ai_tutor engagement • compelling return value proposition,accomplishment,evening,1189,196,108,0.1649,0.5515,0.0034,GOOD
+TPL-3AD9EC55,S2,inactive,Increase ai_tutor engagement • compelling return value proposition,accomplishment,evening,3929,744,265,0.1894,0.3566,0.0123,NEUTRAL
+TPL-BF74DC28,S2,inactive,Increase ai_tutor engagement • compelling return value proposition,accomplishment,evening,2063,45,14,0.0220,0.3301,0.0317,BAD
+TPL-3A5D0998,S2,trial,Increase ai_tutor engagement • rapid adoption & habit formation,accomplishment,evening,3642,937,480,0.2574,0.5131,0.0136,GOOD
+TPL-F172E306,S2,trial,Increase ai_tutor engagement • rapid adoption & habit formation,accomplishment,evening,4731,1412,897,0.2986,0.6358,0.0073,GOOD
+TPL-48B15984,S2,trial,Increase ai_tutor engagement • rapid adoption & habit formation,accomplishment,evening,2806,633,260,0.2258,0.4122,0.0084,GOOD
+TPL-FDCA88BB,S2,trial,Increase ai_tutor engagement • rapid adoption & habit formation,accomplishment,evening,4860,1474,794,0.3035,0.5387,0.0065,GOOD
+TPL-08FACEBF,S2,trial,Increase ai_tutor engagement • rapid adoption & habit formation,accomplishment,evening,2726,607,340,0.2228,0.5608,0.0024,GOOD
+TPL-09BB52D8,S8,paid,Increase ai_tutor engagement • deepening engagement & retention,loss_avoidance,evening,2341,202,99,0.0867,0.4928,0.0200,NEUTRAL
+TPL-8649CB03,S8,paid,Increase ai_tutor engagement • deepening engagement & retention,loss_avoidance,evening,3827,186,20,0.0488,0.1084,0.0168,BAD
+TPL-DF237BB3,S8,paid,Increase ai_tutor engagement • deepening engagement & retention,loss_avoidance,evening,4344,874,309,0.2013,0.3543,0.0140,NEUTRAL
+TPL-A1E70305,S8,paid,Increase ai_tutor engagement • deepening engagement & retention,loss_avoidance,evening,2371,207,55,0.0874,0.2686,0.0189,NEUTRAL
+TPL-B85A0F8A,S8,paid,Increase ai_tutor engagement • deepening engagement & retention,loss_avoidance,evening,1982,386,209,0.1951,0.5431,0.0077,GOOD
+TPL-04C5F27D,S8,churned,Increase ai_tutor engagement • re-engagement & recovering lost habits,loss_avoidance,evening,3582,297,44,0.0830,0.1507,0.0193,BAD
+TPL-E9A979D5,S8,churned,Increase ai_tutor engagement • re-engagement & recovering lost habits,loss_avoidance,evening,2199,51,14,0.0233,0.2918,0.0318,BAD
+TPL-F9726E1B,S8,churned,Increase ai_tutor engagement • re-engagement & recovering lost habits,loss_avoidance,evening,2577,554,231,0.2153,0.4186,0.0056,GOOD
+TPL-C2BBC0EF,S8,churned,Increase ai_tutor engagement • re-engagement & recovering lost habits,loss_avoidance,evening,1836,345,207,0.1881,0.6014,0.0111,GOOD
+TPL-200ACCC0,S8,churned,Increase ai_tutor engagement • re-engagement & recovering lost habits,loss_avoidance,evening,3544,291,55,0.0823,0.1899,0.0178,BAD
+TPL-68AF45DA,S8,inactive,Increase ai_tutor engagement • compelling return value proposition,loss_avoidance,evening,2306,56,16,0.0243,0.2949,0.0157,BAD
+TPL-1D96F3D4,S8,inactive,Increase ai_tutor engagement • compelling return value proposition,loss_avoidance,evening,3961,1071,630,0.2706,0.5883,0.0029,GOOD
+TPL-BD0F1FEF,S8,inactive,Increase ai_tutor engagement • compelling return value proposition,loss_avoidance,evening,4775,1019,341,0.2136,0.3348,0.0124,NEUTRAL
+TPL-34207AEF,S8,inactive,Increase ai_tutor engagement • compelling return value proposition,loss_avoidance,evening,3280,802,348,0.2446,0.4344,0.0042,GOOD
+TPL-AD2341A2,S8,inactive,Increase ai_tutor engagement • compelling return value proposition,loss_avoidance,evening,4426,901,316,0.2036,0.3512,0.0089,NEUTRAL
